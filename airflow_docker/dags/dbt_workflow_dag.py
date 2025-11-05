@@ -11,17 +11,17 @@ default_args = {
     'retry_delay': timedelta(minutes=1),
 }
 
-# Define the DAG
+
 dag = DAG(
     'dbt_workflow',
     default_args=default_args,
     description='Run dbt models using dbt Core',
-    schedule_interval='@daily',  # Run daily
+    schedule_interval='@daily',  
     catchup=False,
 )
 
-# Define the path to your dbt project
-DBT_PROJECT_DIR = "C:/Users/bousl/OneDrive/Documents/datapipeline/snowflake_data"  # Update this path
+
+DBT_PROJECT_DIR = "Users/bousl/OneDrive/Documents/datapipeline/snowflake_data"  
 
 # Task 1: Run dbt models
 dbt_run = BashOperator(
@@ -38,4 +38,4 @@ dbt_test = BashOperator(
 )
 
 # Define task dependencies
-dbt_run >> dbt_test  # dbt_run must finish before dbt_test starts
+dbt_run >> dbt_test  
