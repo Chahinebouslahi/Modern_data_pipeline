@@ -21,7 +21,7 @@ dag = DAG(
 )
 
 
-DBT_PROJECT_DIR = "Users/bousl/OneDrive/Documents/datapipeline/snowflake_data"  
+DBT_PROJECT_DIR = "Users/bousl/OneDrive/Documents/datapipeline/snowflake_dbt"  
 
 # Task 1: Run dbt models
 dbt_run = BashOperator(
