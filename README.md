@@ -1,6 +1,6 @@
 # Data Engineering Pipeline
 
-![Project Badge](https://img.shields.io/badge/status-active-brightgreen)
+![Project Description](Téléchargements/project.png)
 
 ## Overview
 This project is a **complete data engineering pipeline** leveraging modern tools and best practices.  
