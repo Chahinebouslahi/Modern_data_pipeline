@@ -1,27 +1,15 @@
-# Data Engineering Pipeline
+Welcome to your new dbt project!
 
-![Project Badge](https://img.shields.io/badge/status-active-brightgreen)
+### Using the starter project
 
-## Overview
-This project is a **complete data engineering pipeline** leveraging modern tools and best practices.  
-It uses **dbt** for data transformation, **Snowflake** as the data warehouse, and **Apache Airflow** for workflow orchestration.  
-The pipeline covers **data ingestion, transformation, and scheduling** in a scalable and structured manner.
+Try running the following commands:
+- dbt run
+- dbt test
 
-## Tech Stack
-- **dbt Core** – Data transformation and modeling  
-- **Snowflake** – Cloud-based data warehouse  
-- **Apache Airflow** – Workflow automation and orchestration  
-- **Python** – Scripting and automation  
-- **Docker** – Deployment
-- **Git** – Version control  
 
-## Features
-- Automated data ingestion from multiple sources  
-- Transformation and modeling using dbt  
-- Scheduled workflows using Airflow  
-- Scalable and modular architecture  
-
-## Installation
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Chahinebouslahi/Modern_data_pipeline
+### Resources:
+- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
+- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
+- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
+- Find [dbt events](https://events.getdbt.com) near you
+- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
