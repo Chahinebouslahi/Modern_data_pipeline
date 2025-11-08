@@ -1,6 +1,6 @@
 # Data Engineering Pipeline
 
-![Project Description](stack\project.png)
+![Project Description](stack/project.png)
 
 ## Overview
 This project is a **complete data engineering pipeline** leveraging modern tools and best practices.  
