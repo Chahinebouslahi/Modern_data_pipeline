@@ -1,6 +1,6 @@
 # Data Engineering Pipeline
 
-![Project Description](Téléchargements/project.png)
+![Project Description](C:\Users\bousl\Downloads\project.png)
 
 ## Overview
 This project is a **complete data engineering pipeline** leveraging modern tools and best practices.  
