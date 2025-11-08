@@ -1,4 +1,4 @@
-# Data Engineering Pipeline
+# Finance Modern Data Pipeline
 
 ![Project Description](stack/project.png)
 
@@ -21,7 +21,4 @@ The pipeline covers **data ingestion, transformation, and scheduling** in a scal
 - Scheduled workflows using Airflow  
 - Scalable and modular architecture  
 
-## Installation
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Chahinebouslahi/Modern_data_pipeline
+
