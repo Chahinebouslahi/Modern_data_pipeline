@@ -5,7 +5,7 @@
 ## Overview
 This project is a **complete data engineering pipeline** leveraging modern tools and best practices.  
 It uses **dbt** for data transformation, **Snowflake** as the data warehouse, and **Apache Airflow** for workflow orchestration.  
-The pipeline covers **data ingestion, transformation, and scheduling** in a scalable and structured manner.
+The pipeline covers **data ingestion, transformation, and scheduling** in a structured manner.
 
 ## Tech Stack
 - **dbt Core** – Data transformation and modeling  
