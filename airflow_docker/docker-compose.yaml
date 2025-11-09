@@ -41,7 +41,7 @@ services:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
-      - ../snowflake_data:/opt/snowflake_data
+      - ../snowflake_data:/opt/snowflake_dbt
     command: scheduler
     restart: always
 
@@ -56,7 +56,7 @@ services:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
-      - ../snowflake_data:/opt/snowflake_data
+      - ../snowflake_data:/opt/snowflake_dbt
     command: >
       bash -c "airflow db upgrade && airflow users create \
       --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com"
