@@ -1,4 +1,4 @@
-# Finance Modern Data Pipeline
+# Retail Modern Data Pipeline
 
 ![Project Description](stack/project.png)
 
